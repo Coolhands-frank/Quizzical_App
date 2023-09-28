@@ -109,6 +109,7 @@ function App() {
         } else {
         // Update startQuiz 
             setStartQuiz(false)
+            setQuizEntities([])
         }
         setEndGame(true)
     }
